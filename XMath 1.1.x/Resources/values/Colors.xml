@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<color name="colorPrimary">#2980b9</color>
+	<color name="naviBarColor">#2980b9</color>
+	<color name="backgroundColor">#2c3e50</color>
+	<color name="textColorPrimary">#ecf0f1</color>
+	<color name="statusBarColor">#2980b9</color>
+	<color name="signColor">#ecf0f1</color>
+	<color name="colorAccent">#f1c40f</color>
+	
+	<color name="timeElapsedCorrectColor">#27ae60</color>
+	<color name="timeElapsedWrongColor">#e74c3c</color>
+	<color name="timeElapsedBaseColor">#2980b9</color>
+	<color name="timeElapsedBgColor">#7f8c8d</color>
+	
+	<color name="numberColor">#ecf0f1</color>
+	
+	<color name="Error">#e74c3c</color>
+	<color name="Correct">#2ecc71</color>
+</resources>

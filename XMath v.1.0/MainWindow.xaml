@@ -1,0 +1,17 @@
+﻿<Window x:Name="mainWindow" x:Class="XMath_v._1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XMath_v._1._0"
+        mc:Ignorable="d"
+        Title="XMath 1.0" Height="622.452" Width="846.375">
+	<Grid Background="#FF454B53">
+		<TextBox x:Name="taskTextBox" HorizontalAlignment="Left" Height="68" Margin="20,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" IsReadOnly="True" FontFamily="TYPOGRAPH PRO" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF454B53" BorderBrush="#FF4ECDC4" Foreground="#FFC7F464" BorderThickness="2" SelectionBrush="#FFC44D58"/>
+		<TextBox x:Name="resultTextBox" Height="68" Margin="368,20,140.778,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="TYPOGRAPH PRO" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" Background="#FF454B53" BorderBrush="#FF4ECDC4" Foreground="#FFC7F464" BorderThickness="2" SelectionBrush="#FFC44D58" Text="Result"/>
+		<TextBox x:Name="answerTextBox" Height="68" Margin="368,102,140.778,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="TYPOGRAPH PRO" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" KeyDown="answerTextBox_KeyDown" Background="#FF454B53" BorderBrush="#FF4ECDC4" Foreground="#FFC7F464" BorderThickness="2" SelectionBrush="#FFC44D58" Text="Your answer"/>
+		<TextBox x:Name="scoreTextBox" HorizontalAlignment="Right" Height="68" Margin="0,102,21.778,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" FontFamily="TYPOGRAPH PRO" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" Background="#FF454B53" BorderBrush="#FF4ECDC4" Foreground="#FFC7F464" BorderThickness="2" SelectionBrush="#FFC44D58" Text="score"/>
+		<ListBox x:Name="historyListBox" Margin="10,181,9.778,9.556" Background="#FF454B53" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Hidden" HorizontalContentAlignment="Center" Padding="1" ScrollViewer.VerticalScrollBarVisibility="Hidden"/>
+
+	</Grid>
+</Window>

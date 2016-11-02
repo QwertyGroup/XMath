@@ -1,0 +1,13 @@
+﻿<Window x:Class="_TestApp_0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_TestApp_0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+	<TabControl x:Name="tabControl" Background="#FF247BA0" Margin="0,0,0.444,0.111" Foreground="{x:Null}" BorderBrush="{x:Null}">
+		<TabItem Header="TabItem" Background="#FF247BA0"/>
+		<TabItem Header="TabItem" Background="#FF247BA0"/>
+	</TabControl>
+</Window>

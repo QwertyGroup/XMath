@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="XMath_1.x_1.x.XMath_1.x_1.x" android:versionCode="1" android:versionName="1.1" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="23" />
+	<uses-permission android:name="android.permission.STATUS_BAR" />
+	<application android:label="XMath_1._1.x" android:theme="@style/XMathTheme" android:icon="@drawable/Icon"></application>
+</manifest>
