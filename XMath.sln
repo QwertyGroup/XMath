@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMath 1.1", "XMath 1.1", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMath 1.1.x", "XMath 1.1.x\XMath 1.1.x.csproj", "{9A5035AB-BCE3-47D9-815B-F1BD3B46F846}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp 2", "TestApp 2\TestApp 2.csproj", "{A6F876A1-927B-4BC5-A893-30B8A4CB6DE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,12 @@ Global
 		{9A5035AB-BCE3-47D9-815B-F1BD3B46F846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5035AB-BCE3-47D9-815B-F1BD3B46F846}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A5035AB-BCE3-47D9-815B-F1BD3B46F846}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A6F876A1-927B-4BC5-A893-30B8A4CB6DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F876A1-927B-4BC5-A893-30B8A4CB6DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F876A1-927B-4BC5-A893-30B8A4CB6DE8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A6F876A1-927B-4BC5-A893-30B8A4CB6DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F876A1-927B-4BC5-A893-30B8A4CB6DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F876A1-927B-4BC5-A893-30B8A4CB6DE8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
